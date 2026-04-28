@@ -13,5 +13,10 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "scripts": {
+    "cli:add": "cd applications/cli && bun run add",
+    "cli:list": "cd applications/cli && bun run list",
+    "server:start": "cd applications/express-server && bun run start"
   }
 }

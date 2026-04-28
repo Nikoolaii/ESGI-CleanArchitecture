@@ -16,5 +16,8 @@
     "use-cases": "../../core/use-cases",
     "in-memory-repository": "../../adapters/in-memory-repository",
     "controllers": "../../adapters/controllers"
+  },
+  "scripts": {
+    "start": "bun index.ts"
   }
 }
