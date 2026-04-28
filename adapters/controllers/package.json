@@ -1,5 +1,5 @@
 {
-  "name": "controller",
+  "name": "controllers",
   "module": "index.ts",
   "type": "module",
   "private": true,
@@ -8,5 +8,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "entities": "../../core/entities",
+    "use-cases": "../../core/use-cases"
   }
 }

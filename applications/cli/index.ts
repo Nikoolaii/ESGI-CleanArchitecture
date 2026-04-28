@@ -1,5 +1,6 @@
-import { InMemoryMemberRepository, MemberCommandHandler } from "in-memory-repository";
+import { InMemoryMemberRepository} from "in-memory-repository";
 import { MemberUseCase } from "use-cases";
+import { MemberCommandHandler } from "controllers";
 import { parseArgs } from "util";
 
 const inMemoryRepository = new InMemoryMemberRepository();
